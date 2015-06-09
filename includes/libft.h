@@ -6,7 +6,7 @@
 /*   By: mwilk <mwilk@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 14:27:02 by mwilk             #+#    #+#             */
-/*   Updated: 2015/03/25 18:00:40 by mwilk            ###   ########.fr       */
+/*   Updated: 2015/06/09 20:32:05 by mwilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,6 +76,7 @@ int				ft_atoi(const char *str);
 char			*ft_itoa(int c);
 void			ft_bzero(void *str, size_t n);
 void			*ft_realloc(void *ptr, size_t old, size_t size);
+void			ft_cat(int fd);
 
 /*
 ** FT_IS
@@ -112,6 +113,7 @@ void			ft_putnbr(int nb);
 void			ft_putnbr_fd(int nb, int fd);
 void			ft_putstr(const char *str);
 void			ft_putstr_fd(const char *s, int fd);
+int				ft_puts(const char *s);
 
 /*
 ** FT_STR

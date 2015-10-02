@@ -6,7 +6,7 @@
 /*   By: mwilk <mwilk@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/04 14:27:02 by mwilk             #+#    #+#             */
-/*   Updated: 2015/06/09 20:32:05 by mwilk            ###   ########.fr       */
+/*   Updated: 2015/10/02 18:30:29 by mwilk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@
 
 # define MIN(x, y)	(x < y) ? x : y
 # define MAX(x, y)	(x > y) ? x : y
-# define BUFF_SIZE 16
+# define BUFF_SIZE 128
 
 /*
 ** TREE

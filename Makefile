@@ -15,7 +15,7 @@ NAME = libft.a
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-NASM = ~/.brew/Cellar/nasm/2.11.08/bin/nasm
+NASM = ~/.brew/Cellar/nasm/2.11.08_1/bin/nasm
 NASM_FLAGS = -f macho64
 INC_PATH = includes/
 OBJ_PATH = obj/
